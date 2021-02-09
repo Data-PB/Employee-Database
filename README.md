@@ -26,4 +26,5 @@ Inspected the CSVs and sketched out an ERD of the tables. Used a tool like http:
 * engine = create_engine('postgresql://localhost:5432/<your_db_name>')
 connection = engine.connect()
 * Create a histogram to visualize the most common salary ranges for employees.
-* Create a bar chart of average salary by title.
+* Create a bar chart of average salary by title. 
+
