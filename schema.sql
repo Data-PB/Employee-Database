@@ -1,4 +1,4 @@
-﻿CREATE TABLE titles (
+CREATE TABLE titles (
     title_id VARCHAR   NOT NULL,
     title VARCHAR   NOT NULL,
     PRIMARY KEY (title_id)
@@ -14,7 +14,6 @@ CREATE TABLE employees (
     FOREIGN KEY (emp_title_id) REFERENCES titles (title_id),
     PRIMARY KEY (emp_no)
 );
-
 
 CREATE TABLE departments (
     dept_no VARCHAR   NOT NULL,
