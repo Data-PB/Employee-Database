@@ -6,6 +6,8 @@ Analyze employee data of the corporation from the 1980s and 1990s. All that rema
 ## Data Modeling
 Inspected the CSVs and sketched out an ERD of the tables. Used a tool like http://www.quickdatabasediagrams.com.
 
+![ERD](ERD.png)
+
 ## Data Engineering
 * Used the information to create a table schema for each of the six CSV files by specifying data types, primary keys, foreign keys, and other constraints.
 * Imported each CSV file into the corresponding SQL table.
